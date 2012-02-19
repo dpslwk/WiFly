@@ -1,0 +1,106 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		ACB57C9514F15639008B2E10 /* _Spi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = _Spi.cpp; sourceTree = "<group>"; };
+		ACB57C9614F15639008B2E10 /* _Spi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _Spi.h; sourceTree = "<group>"; };
+		ACB57C9714F15639008B2E10 /* Configuration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		ACB57C9814F15639008B2E10 /* Debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
+		ACB57C9914F15639008B2E10 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		ACB57C9A14F15639008B2E10 /* ParsedStream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ParsedStream.cpp; sourceTree = "<group>"; };
+		ACB57C9B14F15639008B2E10 /* ParsedStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParsedStream.h; sourceTree = "<group>"; };
+		ACB57C9C14F15639008B2E10 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		ACB57C9D14F15639008B2E10 /* SpiUart.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpiUart.cpp; sourceTree = "<group>"; };
+		ACB57C9E14F15639008B2E10 /* SpiUart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpiUart.h; sourceTree = "<group>"; };
+		ACB57C9F14F15639008B2E10 /* TODO.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
+		ACB57CA014F15639008B2E10 /* WiFly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiFly.h; sourceTree = "<group>"; };
+		ACB57CA114F15639008B2E10 /* WiFlyClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WiFlyClient.cpp; sourceTree = "<group>"; };
+		ACB57CA214F15639008B2E10 /* WiFlyClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiFlyClient.h; sourceTree = "<group>"; };
+		ACB57CA314F15639008B2E10 /* WiFlyDevice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WiFlyDevice.cpp; sourceTree = "<group>"; };
+		ACB57CA414F15639008B2E10 /* WiFlyDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiFlyDevice.h; sourceTree = "<group>"; };
+		ACB57CA514F15639008B2E10 /* WiFlyServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WiFlyServer.cpp; sourceTree = "<group>"; };
+		ACB57CA614F15639008B2E10 /* WiFlyServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiFlyServer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		AC7DCC3814F155EF00AC9B33 = {
+			isa = PBXGroup;
+			children = (
+				ACB57C9514F15639008B2E10 /* _Spi.cpp */,
+				ACB57C9614F15639008B2E10 /* _Spi.h */,
+				ACB57C9714F15639008B2E10 /* Configuration.h */,
+				ACB57C9814F15639008B2E10 /* Debug.h */,
+				ACB57C9914F15639008B2E10 /* LICENSE.txt */,
+				ACB57C9A14F15639008B2E10 /* ParsedStream.cpp */,
+				ACB57C9B14F15639008B2E10 /* ParsedStream.h */,
+				ACB57C9C14F15639008B2E10 /* README.md */,
+				ACB57C9D14F15639008B2E10 /* SpiUart.cpp */,
+				ACB57C9E14F15639008B2E10 /* SpiUart.h */,
+				ACB57C9F14F15639008B2E10 /* TODO.txt */,
+				ACB57CA014F15639008B2E10 /* WiFly.h */,
+				ACB57CA114F15639008B2E10 /* WiFlyClient.cpp */,
+				ACB57CA214F15639008B2E10 /* WiFlyClient.h */,
+				ACB57CA314F15639008B2E10 /* WiFlyDevice.cpp */,
+				ACB57CA414F15639008B2E10 /* WiFlyDevice.h */,
+				ACB57CA514F15639008B2E10 /* WiFlyServer.cpp */,
+				ACB57CA614F15639008B2E10 /* WiFlyServer.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		AC7DCC3A14F155EF00AC9B33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = AC7DCC3D14F155EF00AC9B33 /* Build configuration list for PBXProject "WiFly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC7DCC3814F155EF00AC9B33;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		AC7DCC3F14F155EF00AC9B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		AC7DCC4014F155EF00AC9B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC7DCC3D14F155EF00AC9B33 /* Build configuration list for PBXProject "WiFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7DCC3F14F155EF00AC9B33 /* Debug */,
+				AC7DCC4014F155EF00AC9B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC7DCC3A14F155EF00AC9B33 /* Project object */;
+}
