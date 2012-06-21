@@ -1,4 +1,3 @@
-
 #include "WiFly.h"
 #include "WiFlyClient.h"
 
@@ -81,9 +80,9 @@ boolean WiFlyClient::_connect() {
     } else if (_domain != NULL) {
       _WiFly.uart->print(_domain);
     } else {
-      while (1) {
-        // This should never happen
-      }
+      // If server goes down we end up here
+      isOpen = false;
+      return false;
     }
     
     _WiFly.uart->print(" ");
