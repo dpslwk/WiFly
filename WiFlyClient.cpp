@@ -1,4 +1,3 @@
-
 #include "WiFly.h"
 #include "WiFlyClient.h"
 
@@ -82,6 +81,7 @@ boolean WiFlyClient::_connect() {
       _WiFly.uart->print(_domain);
     } else {
       // This should never happen
+      isOpen = false;
       return false;
     }
 
