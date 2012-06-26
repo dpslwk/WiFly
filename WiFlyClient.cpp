@@ -81,18 +81,20 @@ boolean WiFlyClient::_connect() {
     } else if (_domain != NULL) {
       _WiFly.uart->print(_domain);
     } else {
-      while (1) {
-        // This should never happen
-      }
+      // This should never happen
+      return false;
     }
-    
+
     _WiFly.uart->print(" ");
     
     _WiFly.uart->print(_port, DEC);
     
-    _WiFly.sendCommand("", false, "*OPEN*");
-    
-    // TODO: Handle connect failure
+    if (!_WiFly.sendCommand("", false, "*OPEN*")) {
+       //Serial.print("Failed to connect");
+       _WiFly.sendCommand("exit", false, "EXIT");
+       isOpen = false;
+       return false;
+    }
   }
   
   isOpen = true;
